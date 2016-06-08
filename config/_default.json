@@ -1,0 +1,45 @@
+{
+	"auth": {
+		"consumer_key": "TgHNMa7WZE7Cxi1JbkAMQ",
+		"consumer_secret": "SHy9mBMBPNj3Y17et9BF4g5XeqS4y3vkeW24PttDcY",
+		"access_token_key": "705696519186313216-PTTM0SOq3ydWANlvnKNJWqvOTTH9mFt",
+		"access_token_secret": "KutOucEGl7lPLubM4bzaY4lBa68PZxbAP9mo5Un9NOS4G"
+	},
+	"bot": {
+		"admin": "TCPRGOS_W",
+		"teachers": [], // teachers account
+		"favorite": {
+			"always_favorites": [],
+			"min_time": 500,
+			"max_time": 5000
+		},
+		"emergency_shutdown_password": "1145141919"
+	},
+	"tweet": {
+		"cache_span": 60, // 1 min
+		"burst_threshold": 2,
+		"min_time": 2000, // 2 sec
+		"max_time": 10000 // 10 sec
+	},
+	"favorite_event": {
+		"span": 10, // 10 sec
+		"burst_threshold": 5,
+		"min_time": 4000, // 4 sec
+		"max_time": 8000 // 8 sec
+	},
+	"reply": {
+		"min_time": 3000,
+		"max_time": 10000,
+		"cache_span": 60, // 1 min
+		"burst_threshold": 10
+	},
+	"markov": {
+		"chain_length": 20
+	},
+	"tweet": {
+		"span": 300000 // 5 min
+	},
+	"mecab": {
+		"dict_path": ""
+	}
+}
